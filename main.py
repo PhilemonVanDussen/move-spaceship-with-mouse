@@ -28,7 +28,7 @@ def main():
     background_position = [0,0]
 
     background_image = pygame.image.load("C:\images\saturn_family1.jpg").convert()
-    player_image = pygame.image.load("C:\images\player.png").convert()
+    player_image = pygame.image.load("C:\images\player.png").convert()         
     player_image.set_colorkey(config.BLACK)
 
     running = True

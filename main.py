@@ -4,7 +4,7 @@ import pygame
 import sys
 import config # Import the config module
 
-def init_game():
+def init_game ():
     pygame.init()
     pygame.font.init
     screen = pygame.display.set_mode((config.WINDOW_WIDTH, config.WINDOW_HEIGHT)) # Use constants from config
@@ -42,7 +42,7 @@ def main():
         x = player_position[0]
         y = player_position[1]
 
-    screen.blit(player_image, [x,y])
+        screen.blit(player_image, [x,y])
 
 
     pygame.display.flip()

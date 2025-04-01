@@ -25,7 +25,7 @@ def main():
     screen = init_game()
     clock = pygame.time.Clock() # Initalize the clock here
 
-    background_position = [0,0]
+    background_position = [0, 0]
 
     background_image = pygame.image.load("C:\images\saturn_family1.jpg").convert()
     player_image = pygame.image.load("C:\images\player.png").convert()         
